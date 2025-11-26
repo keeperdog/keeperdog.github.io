@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LLM AI 相关例子 demo | keeperdog</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="keeperdog">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.6e54da3e.css" as="style"><link rel="preload" href="/assets/js/app.8928299a.js" as="script"><link rel="preload" href="/assets/js/2.e9459d84.js" as="script"><link rel="preload" href="/assets/js/1.6a359339.js" as="script"><link rel="preload" href="/assets/js/13.a5f3fdad.js" as="script"><link rel="prefetch" href="/assets/js/10.7772999a.js"><link rel="prefetch" href="/assets/js/11.fbb5f897.js"><link rel="prefetch" href="/assets/js/12.7a864a4a.js"><link rel="prefetch" href="/assets/js/14.356766f3.js"><link rel="prefetch" href="/assets/js/15.f574a3e6.js"><link rel="prefetch" href="/assets/js/16.1518614c.js"><link rel="prefetch" href="/assets/js/17.ce109c8b.js"><link rel="prefetch" href="/assets/js/18.4f3cbe51.js"><link rel="prefetch" href="/assets/js/19.dae9c7c1.js"><link rel="prefetch" href="/assets/js/20.d3a51191.js"><link rel="prefetch" href="/assets/js/21.64a0c85e.js"><link rel="prefetch" href="/assets/js/22.aa8d2bb9.js"><link rel="prefetch" href="/assets/js/23.1473a31a.js"><link rel="prefetch" href="/assets/js/24.a2dc6bd6.js"><link rel="prefetch" href="/assets/js/25.f3f0ccb5.js"><link rel="prefetch" href="/assets/js/26.1c73e93f.js"><link rel="prefetch" href="/assets/js/27.e49a5fb6.js"><link rel="prefetch" href="/assets/js/28.f00b5ac0.js"><link rel="prefetch" href="/assets/js/29.f4629ef7.js"><link rel="prefetch" href="/assets/js/3.58fac34f.js"><link rel="prefetch" href="/assets/js/30.f463d1dc.js"><link rel="prefetch" href="/assets/js/31.755e32a7.js"><link rel="prefetch" href="/assets/js/32.265a3fc4.js"><link rel="prefetch" href="/assets/js/33.78dc621b.js"><link rel="prefetch" href="/assets/js/34.b85088ba.js"><link rel="prefetch" href="/assets/js/35.72006333.js"><link rel="prefetch" href="/assets/js/36.7a6674ff.js"><link rel="prefetch" href="/assets/js/37.23e28e90.js"><link rel="prefetch" href="/assets/js/38.a734b526.js"><link rel="prefetch" href="/assets/js/39.c52e5d5d.js"><link rel="prefetch" href="/assets/js/4.34a0f087.js"><link rel="prefetch" href="/assets/js/40.b3069624.js"><link rel="prefetch" href="/assets/js/41.d72774f1.js"><link rel="prefetch" href="/assets/js/42.053d40a5.js"><link rel="prefetch" href="/assets/js/43.39cf8017.js"><link rel="prefetch" href="/assets/js/5.d2a097f1.js"><link rel="prefetch" href="/assets/js/6.3bed0312.js"><link rel="prefetch" href="/assets/js/7.b27555b5.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.56c672f1.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6e54da3e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/2.jpeg" alt="keeperdog" class="logo"> <span class="site-name can-hide">keeperdog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/frontend/" class="nav-link">
+  Frontend
+</a></div><div class="nav-item"><a href="/llm/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  LLM
+</a></div><div class="nav-item"><a href="/resume/" class="nav-link">
+  Resume
+</a></div><div class="nav-item"><a href="/sharing/" class="nav-link">
+  Sharing
+</a></div><div class="nav-item"><a href="/speech/" class="nav-link">
+  Speech
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/frontend/" class="nav-link">
+  Frontend
+</a></div><div class="nav-item"><a href="/llm/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  LLM
+</a></div><div class="nav-item"><a href="/resume/" class="nav-link">
+  Resume
+</a></div><div class="nav-item"><a href="/sharing/" class="nav-link">
+  Sharing
+</a></div><div class="nav-item"><a href="/speech/" class="nav-link">
+  Speech
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span></span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/llm/" aria-current="page" class="active sidebar-link">LLM AI 相关例子 demo</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/llm/#提示词工程" class="sidebar-link">提示词工程</a></li><li class="sidebar-sub-header"><a href="/llm/#ai-聊天机器人" class="sidebar-link">AI 聊天机器人</a></li><li class="sidebar-sub-header"><a href="/llm/#rag-langchain-版本" class="sidebar-link">RAG-Langchain 版本</a></li><li class="sidebar-sub-header"><a href="/llm/#rag-langchain-个人知识库助手" class="sidebar-link">RAG-LangChain 个人知识库助手</a></li><li class="sidebar-sub-header"><a href="/llm/#rag-llamaindex-简单版本" class="sidebar-link">RAG-LlamaIndex 简单版本</a></li><li class="sidebar-sub-header"><a href="/llm/#rag-llamaindex-高级版本" class="sidebar-link">RAG-LlamaIndex 高级版本</a></li><li class="sidebar-sub-header"><a href="/llm/#tavily-web-search" class="sidebar-link">Tavily - Web Search</a></li><li class="sidebar-sub-header"><a href="/llm/#metagpt-智能体之简单加减" class="sidebar-link">Metagpt - 智能体之简单加减</a></li><li class="sidebar-sub-header"><a href="/llm/#metagpt-智能体之意图识别" class="sidebar-link">Metagpt - 智能体之意图识别</a></li><li class="sidebar-sub-header"><a href="/llm/#metagpt-智能体之场景细化" class="sidebar-link">Metagpt - 智能体之场景细化</a></li><li class="sidebar-sub-header"><a href="/llm/#metagpt-智能体之回答助手" class="sidebar-link">Metagpt - 智能体之回答助手</a></li><li class="sidebar-sub-header"><a href="/llm/#metagpt-智能体之搜索助手" class="sidebar-link">Metagpt - 智能体之搜索助手</a></li><li class="sidebar-sub-header"><a href="/llm/#xtuner-finetuning模型" class="sidebar-link">XTuner FineTuning模型</a></li></ul></li><li><a href="/llm/llm_basic.html" class="sidebar-link">LLM AI 基础</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#什么是rag" class="sidebar-link">什么是RAG</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#rag-核心模块-组件" class="sidebar-link">RAG 核心模块/组件</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#rag-工作流程" class="sidebar-link">RAG 工作流程</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#在-rag-中的-embedding-嵌入是什么" class="sidebar-link">在 RAG 中的 Embedding 嵌入是什么</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#rag-技术面临着几个关键性的技术挑战" class="sidebar-link">RAG 技术面临着几个关键性的技术挑战</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#如何评价一个rag-知识库-做的好不好" class="sidebar-link">如何评价一个Rag（知识库）做的好不好？</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#什么是langchain" class="sidebar-link">什么是LangChain</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#什么是chain链" class="sidebar-link">什么是Chain链</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#什么是向量数据库" class="sidebar-link">什么是向量数据库</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#向量数据库的核心原理是什么-核心技术是什么" class="sidebar-link">向量数据库的核心原理是什么？核心技术是什么</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#什么是mcp" class="sidebar-link">什么是MCP？</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#mcp-的概率-为什么-mcp-最近很火-它最大的优势是什么" class="sidebar-link">MCP 的概率？为什么 MCP 最近很火？它最大的优势是什么？</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#什么是上下文工程-context-prompt" class="sidebar-link">什么是上下文工程 context prompt？</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#为什么有上下文工程-区别-举个具体的栗子🌰" class="sidebar-link">为什么有上下文工程？区别？举个具体的栗子🌰</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#在选用模型时-如何考量" class="sidebar-link">在选用模型时，如何考量</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#大模型输出出现重复和幻觉如何解决" class="sidebar-link">大模型输出出现重复和幻觉如何解决</a></li><li class="sidebar-sub-header"><a href="/llm/llm_basic.html#方案设计-智能体设计" class="sidebar-link">方案设计 - 智能体设计</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="llm-ai-相关例子-demo"><a href="#llm-ai-相关例子-demo" class="header-anchor">#</a> LLM AI 相关例子 demo</h1> <p>每一个例子都有自己的去练习过</p> <h2 id="提示词工程"><a href="#提示词工程" class="header-anchor">#</a> 提示词工程</h2> <p>这是一个基于 Gradio 的 Web 应用，结合 智谱 AI GLM-4 模型，提供多个社交场景的 AI 对话服务。用户可选择不同场景（如“敬酒”、“送礼”等），获取系统提示词、示例对话，并与 AI 实时互动。</p> <p>传送门：<a href="https://www.modelscope.cn/studios/deshengkong/prompt_engineering_demo_001" target="_blank" rel="noopener noreferrer">prompt_engineering_demo<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <img src="/assets/img/2025-07-09-08-49-30.19ee1c6b.png" alt="snapshot"></p> <h2 id="ai-聊天机器人"><a href="#ai-聊天机器人" class="header-anchor">#</a> AI 聊天机器人</h2> <p>这个 demo 实现了一个基于 <strong>Streamlit</strong> 框架的 AI 聊天机器人应用</p> <p>传送门：<a href="https://www.modelscope.cn/studios/deshengkong/chatbox_demo_001" target="_blank" rel="noopener noreferrer">chatbox_demo<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <img src="/assets/img/2025-07-09-08-52-42.de3e6352.png" alt="snapshot"></p> <ul><li>初始化并维护聊天记录 (<code>messages</code>)，包括用户和助手的消息。</li> <li>当用户提交问题时，将用户输入添加到会话历史，并显示在聊天界面上。</li> <li>使用 <code>OpenAI</code> 客户端调用远程模型（如 Qwen2.5-7B-Instruct）进行流式响应生成。</li> <li>将系统提示（system message）、用户输入（user query）发送给模型，并逐步接收和展示 AI 的回复。</li> <li>使用 <code>Streamlit</code> 构建简洁的网页界面，支持 Markdown 和 HTML 渲染，展示 AI 的思考过程和最终回答。</li></ul> <h2 id="rag-langchain-版本"><a href="#rag-langchain-版本" class="header-anchor">#</a> RAG-Langchain 版本</h2> <p>这个 demo 是实现一个基于<strong>Gradio</strong>的 RAG 模型，基于 langchain 实现。</p> <ul><li>选择Embedding模型（HuggingFace或ZhipuAI）</li> <li>设置文本块大小（建议800-1000）</li> <li>配置数据源（本地文件夹或网页URL）</li> <li>点击”初始化数据库”开始对话</li></ul> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 基本组件</span>
+<span class="token keyword">from</span> langchain_community<span class="token punctuation">.</span>document_loaders <span class="token keyword">import</span> DirectoryLoader
+<span class="token keyword">from</span> langchain_text_splitters <span class="token keyword">import</span> RecursiveCharacterTextSplitter
+<span class="token keyword">from</span> langchain_chroma <span class="token keyword">import</span> Chroma
+
+<span class="token comment"># 核心流程</span>
+<span class="token number">1.</span> 加载文档
+loader <span class="token operator">=</span> DirectoryLoader<span class="token punctuation">(</span>data_path<span class="token punctuation">,</span> glob<span class="token operator">=</span><span class="token string">&quot;*.txt&quot;</span><span class="token punctuation">)</span>
+<span class="token number">2.</span> 文本分割
+text_splitter <span class="token operator">=</span> RecursiveCharacterTextSplitter<span class="token punctuation">(</span>
+    chunk_size<span class="token operator">=</span>chunk_size<span class="token punctuation">,</span>
+    chunk_overlap<span class="token operator">=</span><span class="token number">200</span>
+<span class="token punctuation">)</span>
+<span class="token number">3.</span> 创建向量数据库
+vectordb <span class="token operator">=</span> Chroma<span class="token punctuation">.</span>from_documents<span class="token punctuation">(</span>
+    documents<span class="token operator">=</span>split_docs<span class="token punctuation">,</span>
+    embedding<span class="token operator">=</span>embedding_func<span class="token punctuation">,</span>
+    persist_directory<span class="token operator">=</span>persist_directory<span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code>python run/demo_rag_langchain_onlinellm.py
+</code></pre></div><p><img src="/assets/img/2025-07-09-12-25-04.93eba88d.png" alt="snapshot"></p> <h2 id="rag-langchain-个人知识库助手"><a href="#rag-langchain-个人知识库助手" class="header-anchor">#</a> RAG-LangChain 个人知识库助手</h2> <p>TODO</p> <h2 id="rag-llamaindex-简单版本"><a href="#rag-llamaindex-简单版本" class="header-anchor">#</a> RAG-LlamaIndex 简单版本</h2> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 基本组件</span>
+<span class="token keyword">from</span> llama_index<span class="token punctuation">.</span>core <span class="token keyword">import</span> SimpleDirectoryReader<span class="token punctuation">,</span> VectorStoreIndex
+<span class="token keyword">from</span> llama_index<span class="token punctuation">.</span>vector_stores<span class="token punctuation">.</span>faiss <span class="token keyword">import</span> FaissVectorStore
+
+<span class="token comment"># 核心流程</span>
+<span class="token number">1.</span> 加载文档
+documents <span class="token operator">=</span> SimpleDirectoryReader<span class="token punctuation">(</span>data_dir<span class="token punctuation">)</span><span class="token punctuation">.</span>load_data<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token number">2.</span> 创建索引
+index <span class="token operator">=</span> VectorStoreIndex<span class="token punctuation">.</span>from_documents<span class="token punctuation">(</span>
+    documents<span class="token punctuation">,</span>
+    storage_context<span class="token operator">=</span>storage_context
+<span class="token punctuation">)</span>
+
+<span class="token number">3.</span> 创建检索器
+retriever <span class="token operator">=</span> VectorIndexRetriever<span class="token punctuation">(</span>index<span class="token operator">=</span>index<span class="token punctuation">)</span>
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code>python test/knowledges/llamaindex/test_RAG_zhipuai_simple.py
+</code></pre></div><p><img src="/assets/img/2025-07-09-21-26-21.4a33cfef.png" alt="snapshot"></p> <h2 id="rag-llamaindex-高级版本"><a href="#rag-llamaindex-高级版本" class="header-anchor">#</a> RAG-LlamaIndex 高级版本</h2> <p>TODO</p> <h2 id="tavily-web-search"><a href="#tavily-web-search" class="header-anchor">#</a> Tavily - Web Search</h2> <p><strong>职责：</strong> 测试tavily的web搜索功能</p> <div class="language-python extra-class"><pre class="language-python"><code>tavily_client <span class="token operator">=</span> TavilyClient<span class="token punctuation">(</span>api_key<span class="token operator">=</span>os<span class="token punctuation">.</span>getenv<span class="token punctuation">(</span><span class="token string">&quot;TAVILY_API_KEY&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+response <span class="token operator">=</span> tavily_client<span class="token punctuation">.</span>search<span class="token punctuation">(</span><span class="token string">&quot;What is the weather in Shanghai?&quot;</span><span class="token punctuation">,</span>max_results<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">)</span>
+
+<span class="token keyword">for</span> url <span class="token keyword">in</span> response<span class="token punctuation">[</span><span class="token string">'results'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>url<span class="token punctuation">[</span><span class="token string">'url'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><p><strong>Rund Demo</strong></p> <div class="language-bash extra-class"><pre class="language-bash"><code>python test/agents/metagpt/test_WebSearch.py    
+</code></pre></div><p><img src="/assets/img/2025-07-09-23-07-28.23823644.png" alt="snapshot"></p> <h2 id="metagpt-智能体之简单加减"><a href="#metagpt-智能体之简单加减" class="header-anchor">#</a> Metagpt - 智能体之简单加减</h2> <p><strong>职责：</strong> 一个超级简单的加减功能</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">class</span> <span class="token class-name">SimpleCalculator</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;一个简单的计算Action&quot;&quot;&quot;</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;SimpleCalculator&quot;</span>
+    <span class="token keyword">async</span> <span class="token keyword">def</span> <span class="token function">run</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> instruction<span class="token punctuation">:</span> <span class="token builtin">str</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token builtin">str</span><span class="token punctuation">:</span>
+        <span class="token keyword">try</span><span class="token punctuation">:</span>
+            <span class="token comment"># 解析输入</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f&quot;当前run ： </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">type</span><span class="token punctuation">(</span>instruction<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">,</span><span class="token interpolation"><span class="token punctuation">{</span>instruction<span class="token punctuation">}</span></span><span class="token string">&quot;</span></span><span class="token punctuation">)</span>
+            num1<span class="token punctuation">,</span> num2 <span class="token operator">=</span> <span class="token builtin">map</span><span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">,</span> instruction<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">'+'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+            result <span class="token operator">=</span> <span class="token string-interpolation"><span class="token string">f&quot;</span><span class="token interpolation"><span class="token punctuation">{</span>num1<span class="token punctuation">}</span></span><span class="token string"> + </span><span class="token interpolation"><span class="token punctuation">{</span>num2<span class="token punctuation">}</span></span><span class="token string"> = </span><span class="token interpolation"><span class="token punctuation">{</span>num1 <span class="token operator">+</span> num2<span class="token punctuation">}</span></span><span class="token string">&quot;</span></span>
+            logger<span class="token punctuation">.</span>info<span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f&quot;计算结果: </span><span class="token interpolation"><span class="token punctuation">{</span>result<span class="token punctuation">}</span></span><span class="token string">&quot;</span></span><span class="token punctuation">)</span>
+            <span class="token keyword">return</span> result
+        <span class="token keyword">except</span> Exception <span class="token keyword">as</span> e<span class="token punctuation">:</span>
+            error_msg <span class="token operator">=</span> <span class="token string-interpolation"><span class="token string">f&quot;计算错误: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">str</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">&quot;</span></span>
+            logger<span class="token punctuation">.</span>error<span class="token punctuation">(</span>error_msg<span class="token punctuation">)</span>
+            <span class="token keyword">return</span> error_msg
+
+<span class="token keyword">class</span> <span class="token class-name">CalculatorAssistant</span><span class="token punctuation">(</span>Role<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;计算助手角色
+
+    ReAct 循环的模式，目前支持 REACT、BY_ORDER、PLAN_AND_ACT 3种模式，
+    默认使用 REACT 模式。在 _set_react_mode 方法中有相关说明。简单来说，BY_ORDER 模式按照指定的 Action 顺序执行。
+    PLAN_AND_ACT 则为一次思考后执行多个动作，即 _think -&gt; _act -&gt; act -&gt; ...，
+    而 REACT 模式按照 ReAct 论文中的思考——行动循环来执行，即 _think -&gt; _act -&gt; _think -&gt; _act -&gt; ...。
+    &quot;&quot;&quot;</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;Calculator&quot;</span>
+    profile<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;一个简单的计算助手，负责计算两个数字的和&quot;</span>
+    
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> <span class="token operator">**</span>kwargs<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token builtin">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>__init__<span class="token punctuation">(</span><span class="token operator">**</span>kwargs<span class="token punctuation">)</span>
+        self<span class="token punctuation">.</span>set_actions<span class="token punctuation">(</span><span class="token punctuation">[</span>SimpleCalculator<span class="token punctuation">]</span><span class="token punctuation">)</span>
+        self<span class="token punctuation">.</span>_set_react_mode<span class="token punctuation">(</span>react_mode<span class="token operator">=</span>RoleReactMode<span class="token punctuation">.</span>BY_ORDER<span class="token punctuation">.</span>value<span class="token punctuation">)</span>
+
+    <span class="token keyword">async</span> <span class="token keyword">def</span> <span class="token function">_act</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> Message<span class="token punctuation">:</span>
+        logger<span class="token punctuation">.</span>info<span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f&quot;</span><span class="token interpolation"><span class="token punctuation">{</span>self<span class="token punctuation">.</span>_setting<span class="token punctuation">}</span></span><span class="token string">: to do </span><span class="token interpolation"><span class="token punctuation">{</span>self<span class="token punctuation">.</span>rc<span class="token punctuation">.</span>todo<span class="token punctuation">}</span></span><span class="token string">(</span><span class="token interpolation"><span class="token punctuation">{</span>self<span class="token punctuation">.</span>rc<span class="token punctuation">.</span>todo<span class="token punctuation">.</span>name<span class="token punctuation">}</span></span><span class="token string">)&quot;</span></span><span class="token punctuation">)</span>
+        todo <span class="token operator">=</span> self<span class="token punctuation">.</span>rc<span class="token punctuation">.</span>todo
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f&quot;当前_act ： </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">type</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>rc<span class="token punctuation">.</span>todo<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">,</span><span class="token interpolation"><span class="token punctuation">{</span>self<span class="token punctuation">.</span>rc<span class="token punctuation">.</span>todo<span class="token punctuation">}</span></span><span class="token string">&quot;</span></span><span class="token punctuation">)</span>
+
+        msg <span class="token operator">=</span> self<span class="token punctuation">.</span>get_memories<span class="token punctuation">(</span>k<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>  <span class="token comment"># 获取最近的消息</span>
+        result <span class="token operator">=</span> <span class="token keyword">await</span> todo<span class="token punctuation">.</span>run<span class="token punctuation">(</span>msg<span class="token punctuation">.</span>content<span class="token punctuation">)</span>
+        
+        msg <span class="token operator">=</span> Message<span class="token punctuation">(</span>content<span class="token operator">=</span>result<span class="token punctuation">,</span> role<span class="token operator">=</span>self<span class="token punctuation">.</span>profile<span class="token punctuation">,</span> cause_by<span class="token operator">=</span><span class="token builtin">type</span><span class="token punctuation">(</span>todo<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> msg
+
+<span class="token keyword">def</span> <span class="token function">run_example</span><span class="token punctuation">(</span>msg<span class="token punctuation">:</span> <span class="token builtin">str</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;运行单个计算示例&quot;&quot;&quot;</span>
+    role <span class="token operator">=</span> CalculatorAssistant<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    logger<span class="token punctuation">.</span>info<span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f&quot;输入: </span><span class="token interpolation"><span class="token punctuation">{</span>msg<span class="token punctuation">}</span></span><span class="token string">&quot;</span></span><span class="token punctuation">)</span>
+    result <span class="token operator">=</span> asyncio<span class="token punctuation">.</span>run<span class="token punctuation">(</span>role<span class="token punctuation">.</span>run<span class="token punctuation">(</span>msg<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    logger<span class="token punctuation">.</span>info<span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f&quot;结果: </span><span class="token interpolation"><span class="token punctuation">{</span>result<span class="token punctuation">}</span></span><span class="token string">&quot;</span></span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;-&quot;</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;运行多个计算示例&quot;&quot;&quot;</span>
+    <span class="token comment"># 基本加法示例</span>
+    run_example<span class="token punctuation">(</span><span class="token string">&quot;5 + 3&quot;</span><span class="token punctuation">)</span>
+    <span class="token comment"># 大数加法示例</span>
+    run_example<span class="token punctuation">(</span><span class="token string">&quot;1234 + 5678&quot;</span><span class="token punctuation">)</span>
+    <span class="token comment"># 负数加法示例</span>
+    run_example<span class="token punctuation">(</span><span class="token string">&quot;-10 + 5&quot;</span><span class="token punctuation">)</span>
+    <span class="token comment"># 错误输入示例</span>
+    run_example<span class="token punctuation">(</span><span class="token string">&quot;abc + def&quot;</span><span class="token punctuation">)</span>
+    <span class="token comment"># 零的加法示例</span>
+    run_example<span class="token punctuation">(</span><span class="token string">&quot;0 + 100&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">&quot;__main__&quot;</span><span class="token punctuation">:</span>
+    fire<span class="token punctuation">.</span>Fire<span class="token punctuation">(</span>main<span class="token punctuation">)</span>
+</code></pre></div><p><strong>Rund Demo</strong></p> <div class="language-bash extra-class"><pre class="language-bash"><code>python test/agents/metagpt/test_metagpt_dummy.py 
+</code></pre></div><p><img src="/assets/img/2025-07-09-23-03-28.d87ef7b2.png" alt="snapshot"></p> <h2 id="metagpt-智能体之意图识别"><a href="#metagpt-智能体之意图识别" class="header-anchor">#</a> Metagpt - 智能体之意图识别</h2> <p><strong>职责</strong>：分析用户输入，识别用户意图并映射到预定义场景</p> <p><strong>主要功能</strong>：</p> <ul><li>分析用户输入的自然语言文本</li> <li>识别用户当前的意图和需求</li> <li>将用户问题匹配到预定义的场景类型</li> <li>输出场景标签供后续处理</li></ul> <p><strong>可用Actions</strong>：</p> <div class="language-python extra-class"><pre class="language-python"><code>  <span class="token keyword">class</span> <span class="token class-name">IntentAnalyze</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+      <span class="token triple-quoted-string string">&quot;&quot;&quot;分析用户意图并映射到预定义场景标签
+      使用LLM分析用户输入，返回对应的场景类型编号
+      &quot;&quot;&quot;</span>
+      name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;IntentAnalyze&quot;</span>
+</code></pre></div><p><strong>Run demo:</strong></p> <div class="language-bash extra-class"><pre class="language-bash"><code>streamlit run test/agents/metagpt_agents/intentRecognition/role.py
+</code></pre></div><p><img src="/assets/img/2025-07-09-21-59-33.b762efe7.png" alt="snapshot"></p> <h2 id="metagpt-智能体之场景细化"><a href="#metagpt-智能体之场景细化" class="header-anchor">#</a> Metagpt - 智能体之场景细化</h2> <p><strong>职责</strong>：提取和完善场景要素</p> <p><strong>主要功能</strong>：</p> <ul><li>信息抽取：从用户对话中提取场景要素</li> <li>提问助手：对缺失的场景要素进行提问</li> <li>场景要素验证：确保所有必要信息完整</li></ul> <p><strong>可用Actions</strong>：</p> <div class="language-python extra-class"><pre class="language-python"><code> <span class="token keyword">class</span> <span class="token class-name">sceneRefineAnalyze</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+      <span class="token triple-quoted-string string">&quot;&quot;&quot;提取场景要素
+      从用户输入中提取特定场景所需的关键信息
+      &quot;&quot;&quot;</span>
+      name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;sceneRefineAnalyze&quot;</span>
+
+  <span class="token keyword">class</span> <span class="token class-name">RaiseQuestion</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+      <span class="token triple-quoted-string string">&quot;&quot;&quot;生成补充问题
+      针对缺失的场景要素生成自然的追问
+      &quot;&quot;&quot;</span>
+      name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;RaiseQuestion&quot;</span>
+</code></pre></div><p><strong>Run demo:</strong></p> <div class="language-bash extra-class"><pre class="language-bash"><code> streamlit run test/agents/metagpt/sceneRefine_test_case.py 
+</code></pre></div><p><img src="/assets/img/2025-07-09-22-12-46.67acff32.png" alt="snapshot"></p> <h2 id="metagpt-智能体之回答助手"><a href="#metagpt-智能体之回答助手" class="header-anchor">#</a> Metagpt - 智能体之回答助手</h2> <p><strong>职责</strong>：基于场景要素生成定制化回答</p> <p><strong>主要功能</strong>：</p> <ul><li>整合场景信息和用户需求</li> <li>生成针对性的建议和解答</li> <li>提供详细的示例和说明</li></ul> <p><strong>可用Actions</strong>：</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">class</span> <span class="token class-name">AnswerQuestion</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;生成定制化回答
+    基于完整的场景要素，生成符合用户需求的详细回答
+    使用模板系统确保回答的结构性和完整性
+    &quot;&quot;&quot;</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;AnswerQuestion&quot;</span>
+</code></pre></div><p><strong>Run demo:</strong></p> <div class="language-bash extra-class"><pre class="language-bash"><code> streamlit run test/agents/metagpt/answerBot_test_case.py 
+</code></pre></div><p><img src="/assets/img/2025-07-09-22-17-20.4c700044.png" alt="snapshot"></p> <h2 id="metagpt-智能体之搜索助手"><a href="#metagpt-智能体之搜索助手" class="header-anchor">#</a> Metagpt - 智能体之搜索助手</h2> <p><strong>职责</strong>：通过网络搜索补充回答内容</p> <p><strong>主要功能</strong>：</p> <ul><li>查询扩展：生成相关搜索查询</li> <li>网络搜索：使用搜索引擎获取相关信息</li> <li>结果筛选：判断和筛选有价值的网页内容</li> <li>内容提取：抓取和过滤网页内容</li> <li>结果整合：将搜索结果整合到回答中</li></ul> <p><strong>可用Actions</strong>：</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">class</span> <span class="token class-name">QueryExpansion</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;生成扩展查询
+    基于用户输入生成多个相关的搜索查询
+    &quot;&quot;&quot;</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;queryExpansion&quot;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">WebSearch</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;执行网络搜索
+    使用搜索引擎获取相关网页内容
+    &quot;&quot;&quot;</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;WebSearch&quot;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">SelectResult</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;筛选搜索结果
+    判断哪些搜索结果值得进一步分析
+    &quot;&quot;&quot;</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;selectResult&quot;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">SelectFetcher</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;抓取网页内容
+    获取筛选后的网页的具体内容
+    &quot;&quot;&quot;</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;selectFetcher&quot;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">FilterSelectedResult</span><span class="token punctuation">(</span>Action<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;过滤和提取信息
+    从网页内容中提取有价值的信息
+    &quot;&quot;&quot;</span>
+    name<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;FilterSelectedResult&quot;</span>
+</code></pre></div><p><strong>Run demo:</strong></p> <div class="language-bash extra-class"><pre class="language-bash"><code> streamlit run test/agents/metagpt/searcher_test_case.py 
+</code></pre></div><video src="/Screen Recording 2025-07-09 at 22.32.04.mov" controls="controls" width="100%">
+  您的浏览器不支持视频播放。
+</video> <h2 id="xtuner-finetuning模型"><a href="#xtuner-finetuning模型" class="header-anchor">#</a> XTuner FineTuning模型</h2> <p><strong>XTuner</strong> 是一个基于 LLM 的模型微调工具，它可以帮助用户快速、轻松地微调 LLM 模型，从而提高模型的性能和效果。Xtuner 集成了 LoRA 和 QLoRA 等微调方法，让用户可以根据自身资源情况灵活选择；而 QLoRA 是 LoRA 在量化场景下的优化扩展。</p> <p><strong>平台</strong>：Ubuntu + Anaconda + CUDA/CUDNN + 8GB nvidia显卡</p> <p><strong>安装</strong>：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># 在 InternStudio 平台，则从本地 clone 一个已有 pytorch 2.0.1 的环境：</span>
+/root/share/install_conda_env_internlm_base.sh xtuner0.1.9
+
+<span class="token comment"># 进入homoe 目录</span>
+<span class="token builtin class-name">cd</span> ~
+<span class="token comment"># 创建版本文件夹并进入，以跟随本教程</span>
+<span class="token function">mkdir</span> xtuner019 <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> xtuner019
+
+<span class="token comment"># 拉取 0.1.9 的版本源码</span>
+<span class="token function">git</span> clone <span class="token parameter variable">-b</span> v0.1.9  https://github.com/InternLM/xtuner
+<span class="token comment"># 无法访问github的用户请从 gitee 拉取:</span>
+<span class="token comment"># git clone -b v0.1.9 https://gitee.com/Internlm/xtuner</span>
+
+<span class="token comment"># 进入源码目录</span>
+<span class="token builtin class-name">cd</span> xtuner
+
+<span class="token comment"># 从源码安装 XTuner</span>
+pip <span class="token function">install</span> <span class="token parameter variable">-e</span> <span class="token string">'.[all]'</span>
+</code></pre></div><p>安装完后，就开始搞搞准备工作了。（准备在 oasst1 数据集上微调 internlm-7b-chat）</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># 创建一个微调 oasst1 数据集的工作路径，进入</span>
+<span class="token function">mkdir</span> ~/ft-oasst1 <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> ~/ft-oasst1
+</code></pre></div><p><strong>微调：</strong>
+XTuner 提供多个开箱即用的配置文件，用户可以通过下列命令查看：</p> <div class="language-Bash extra-class"><pre class="language-bash"><code><span class="token comment"># 列出所有内置配置</span>
+xtuner list-cfg
+</code></pre></div><blockquote><p>假如显示bash: xtuner: command not found的话可以考虑在终端输入 export PATH=$PATH:'/root/.local/bin'</p></blockquote> <p><img src="/assets/img/2025-07-10-10-14-54.e80006cd.png" alt="snapshot"></p> <p>拷贝一个配置文件到当前目录：
+<code># xtuner copy-cfg ${CONFIG_NAME} ${SAVE_PATH}</code></p> <p>在本案例中即：（注意最后有个英文句号，代表复制到当前路径）</p> <div class="language-Bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">cd</span> ~/ft-oasst1
+xtuner copy-cfg internlm_chat_7b_qlora_oasst1_e3 <span class="token builtin class-name">.</span>
+</code></pre></div><p>配置文件名的解释：</p> <blockquote><p>xtuner copy-cfg internlm_chat_7b_qlora_oasst1_e3 .</p></blockquote> <table><thead><tr><th>模型名</th> <th>internlm_chat_7b</th></tr></thead> <tbody><tr><td>使用算法</td> <td>qlora</td></tr> <tr><td>数据集</td> <td>oasst1</td></tr> <tr><td>把数据集跑几次</td> <td>跑3次：e3 (epoch 3 )</td></tr></tbody></table> <p>*无 chat比如 <code>internlm-7b</code> 代表是基座(base)模型</p> <p><strong>模型下载：</strong></p> <blockquote><p>由于下载模型很慢，用教学平台的同学可以直接复制模型。</p></blockquote> <div class="language-Bash extra-class"><pre class="language-bash"><code><span class="token function">ln</span> <span class="token parameter variable">-s</span> /share/temp/model_repos/internlm-chat-7b ~/ft-oasst1/
+</code></pre></div><p>以上是通过软链的方式，将模型文件挂载到家目录下，优势是：</p> <ol><li>节省拷贝时间，无需等待</li> <li>节省用户开发机存储空间</li></ol> <blockquote><p>当然，也可以用 <code>cp -r /share/temp/model_repos/internlm-chat-7b ~/ft-oasst1/</code> 进行数据拷贝。</p></blockquote> <blockquote><p>以下是自己下载模型的步骤。</p></blockquote> <p>不用 xtuner 默认的<code>从 huggingface 拉取模型</code>，而是提前从 <s>OpenXLab</s> ModelScope 下载模型到本地</p> <div class="language-Bash extra-class"><pre class="language-bash"><code><span class="token comment"># 创建一个目录，放模型文件，防止散落一地</span>
+<span class="token function">mkdir</span> ~/ft-oasst1/internlm-chat-7b
+
+<span class="token comment"># 装一下拉取模型文件要用的库</span>
+pip <span class="token function">install</span> modelscope
+
+<span class="token comment"># 从 modelscope 下载下载模型文件</span>
+<span class="token builtin class-name">cd</span> ~/ft-oasst1
+<span class="token function">apt</span> <span class="token function">install</span> <span class="token function">git</span> git-lfs <span class="token parameter variable">-y</span>
+<span class="token function">git</span> lfs <span class="token function">install</span>
+<span class="token function">git</span> lfs clone https://modelscope.cn/Shanghai_AI_Laboratory/internlm-chat-7b.git <span class="token parameter variable">-b</span> v1.0.3
+</code></pre></div><p><strong>数据集下载：</strong></p> <blockquote><p>https://huggingface.co/datasets/timdettmers/openassistant-guanaco/tree/main</p></blockquote> <p>由于 huggingface 网络问题，咱们已经给大家提前下载好了，复制到正确位置即可：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">cd</span> ~/ft-oasst1
+<span class="token comment"># ...-guanaco 后面有个空格和英文句号啊</span>
+<span class="token function">cp</span> <span class="token parameter variable">-r</span> /root/share/temp/datasets/openassistant-guanaco <span class="token builtin class-name">.</span>
+</code></pre></div><p>此时，当前路径的文件应该长这样：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token operator">|</span>-- internlm-chat-7b
+<span class="token operator">|</span>   <span class="token operator">|</span>-- README.md
+<span class="token operator">|</span>   <span class="token operator">|</span>-- config.json
+<span class="token operator">|</span>   <span class="token operator">|</span>-- configuration.json
+<span class="token operator">|</span>   <span class="token operator">|</span>-- configuration_internlm.py
+<span class="token operator">|</span>   <span class="token operator">|</span>-- generation_config.json
+<span class="token operator">|</span>   <span class="token operator">|</span>-- modeling_internlm.py
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model-00001-of-00008.bin
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model-00002-of-00008.bin
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model-00003-of-00008.bin
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model-00004-of-00008.bin
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model-00005-of-00008.bin
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model-00006-of-00008.bin
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model-00007-of-00008.bin
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model-00008-of-00008.bin
+<span class="token operator">|</span>   <span class="token operator">|</span>-- pytorch_model.bin.index.json
+<span class="token operator">|</span>   <span class="token operator">|</span>-- special_tokens_map.json
+<span class="token operator">|</span>   <span class="token operator">|</span>-- tokenization_internlm.py
+<span class="token operator">|</span>   <span class="token operator">|</span>-- tokenizer.model
+<span class="token operator">|</span>   <span class="token variable"><span class="token variable">`</span>-- tokenizer_config.json
+<span class="token operator">|</span>-- internlm_chat_7b_qlora_oasst1_e3_copy.py
+<span class="token variable">`</span></span>-- openassistant-guanaco
+    <span class="token operator">|</span>-- openassistant_best_replies_eval.jsonl
+    `-- openassistant_best_replies_train.jsonl
+</code></pre></div><p><strong>修改配置文件：</strong></p> <p>修改其中的模型和数据集为 本地路径</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">cd</span> ~/ft-oasst1
+<span class="token function">vim</span> internlm_chat_7b_qlora_oasst1_e3_copy.py
+</code></pre></div><blockquote><p>在vim界面完成修改后，请输入:wq退出。假如认为改错了可以用:q!退出且不保存。当然我们也可以考虑打开python文件直接修改，但注意修改完后需要按下Ctrl+S进行保存。</p></blockquote> <p>减号代表要删除的行，加号代表要增加的行。</p> <div class="language-diff extra-class"><pre class="language-diff"><code># 修改模型为本地路径
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"> pretrained_model_name_or_path = 'internlm/internlm-chat-7b'
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> pretrained_model_name_or_path = './internlm-chat-7b'
+</span></span>
+# 修改训练数据集为本地路径
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"> data_path = 'timdettmers/openassistant-guanaco'
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> data_path = './openassistant-guanaco'
+</span></span></code></pre></div><p><strong>常用超参</strong></p> <table><thead><tr><th>参数名</th> <th>解释</th></tr></thead> <tbody><tr><td><strong>data_path</strong></td> <td>数据路径或 HuggingFace 仓库名</td></tr> <tr><td>max_length</td> <td>单条数据最大 Token 数，超过则截断</td></tr> <tr><td>pack_to_max_length</td> <td>是否将多条短数据拼接到 max_length，提高 GPU 利用率</td></tr> <tr><td>accumulative_counts</td> <td>梯度累积，每多少次 backward 更新一次参数</td></tr> <tr><td>evaluation_inputs</td> <td>训练过程中，会根据给定的问题进行推理，便于观测训练状态</td></tr> <tr><td>evaluation_freq</td> <td>Evaluation 的评测间隔 iter 数</td></tr> <tr><td>......</td> <td>......</td></tr></tbody></table> <blockquote><p>如果想把显卡的现存吃满，充分利用显卡资源，可以将 <code>max_length</code> 和 <code>batch_size</code> 这两个参数调大。</p></blockquote> <p>开始微调</p> <p><strong>训练：</strong></p> <p>xtuner train ${CONFIG_NAME_OR_PATH}</p> <p><strong>也可以增加 deepspeed 进行训练加速：</strong></p> <p>xtuner train ${CONFIG_NAME_OR_PATH} --deepspeed deepspeed_zero2</p> <p>例如，我们可以利用 QLoRA 算法在 oasst1 数据集上微调 InternLM-7B：</p> <div class="language-Bash extra-class"><pre class="language-bash"><code><span class="token comment"># 单卡</span>
+<span class="token comment">## 用刚才改好的config文件训练</span>
+xtuner train ./internlm_chat_7b_qlora_oasst1_e3_copy.py
+
+<span class="token comment"># 多卡</span>
+<span class="token assign-left variable">NPROC_PER_NODE</span><span class="token operator">=</span><span class="token variable">${GPU_NUM}</span> xtuner train ./internlm_chat_7b_qlora_oasst1_e3_copy.py
+
+<span class="token comment"># 若要开启 deepspeed 加速，增加 --deepspeed deepspeed_zero2 即可</span>
+</code></pre></div><blockquote><p>微调得到的 PTH 模型文件和其他杂七杂八的文件都默认在当前的 <code>./work_dirs</code> 中。</p></blockquote> <p>跑完训练后，当前路径应该长这样：</p> <div class="language-Bash extra-class"><pre class="language-bash"><code><span class="token operator">|</span>-- internlm-chat-7b
+<span class="token operator">|</span>-- internlm_chat_7b_qlora_oasst1_e3_copy.py
+<span class="token operator">|</span>-- openassistant-guanaco
+<span class="token operator">|</span>   <span class="token operator">|</span>-- openassistant_best_replies_eval.jsonl
+<span class="token operator">|</span>   <span class="token variable"><span class="token variable">`</span>-- openassistant_best_replies_train.jsonl
+<span class="token variable">`</span></span>-- work_dirs
+    <span class="token variable"><span class="token variable">`</span>-- internlm_chat_7b_qlora_oasst1_e3_copy
+        <span class="token operator">|</span>-- 20231101_152923
+        <span class="token operator">|</span>   <span class="token operator">|</span>-- 20231101_152923.log
+        <span class="token operator">|</span>   <span class="token variable">`</span></span>-- vis_data
+        <span class="token operator">|</span>       <span class="token operator">|</span>-- 20231101_152923.json
+        <span class="token operator">|</span>       <span class="token operator">|</span>-- config.py
+        <span class="token operator">|</span>       <span class="token variable"><span class="token variable">`</span>-- scalars.json
+        <span class="token operator">|</span>-- epoch_1.pth
+        <span class="token operator">|</span>-- epoch_2.pth
+        <span class="token operator">|</span>-- epoch_3.pth
+        <span class="token operator">|</span>-- internlm_chat_7b_qlora_oasst1_e3_copy.py
+        <span class="token variable">`</span></span>-- last_checkpoint
+</code></pre></div><p>将得到的 PTH 模型转换为 HuggingFace 模型，<strong>即：生成 Adapter 文件夹</strong></p> <p><code>xtuner convert pth_to_hf ${CONFIG_NAME_OR_PATH} ${PTH_file_dir} ${SAVE_PATH}</code></p> <p>在本示例中，为：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">mkdir</span> hf
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">MKL_SERVICE_FORCE_INTEL</span><span class="token operator">=</span><span class="token number">1</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">MKL_THREADING_LAYER</span><span class="token operator">=</span>GNU
+xtuner convert pth_to_hf ./internlm_chat_7b_qlora_oasst1_e3_copy.py ./work_dirs/internlm_chat_7b_qlora_oasst1_e3_copy/epoch_1.pth ./hf
+</code></pre></div><p>此时，路径中应该长这样：</p> <div class="language-Bash extra-class"><pre class="language-bash"><code><span class="token operator">|</span>-- internlm-chat-7b
+<span class="token operator">|</span>-- internlm_chat_7b_qlora_oasst1_e3_copy.py
+<span class="token operator">|</span>-- openassistant-guanaco
+<span class="token operator">|</span>   <span class="token operator">|</span>-- openassistant_best_replies_eval.jsonl
+<span class="token operator">|</span>   <span class="token variable"><span class="token variable">`</span>-- openassistant_best_replies_train.jsonl
+<span class="token operator">|</span>-- hf
+<span class="token operator">|</span>   <span class="token operator">|</span>-- README.md
+<span class="token operator">|</span>   <span class="token operator">|</span>-- adapter_config.json
+<span class="token operator">|</span>   <span class="token operator">|</span>-- adapter_model.bin
+<span class="token operator">|</span>   <span class="token variable">`</span></span>-- xtuner_config.py
+<span class="token variable"><span class="token variable">`</span>-- work_dirs
+    <span class="token variable">`</span></span>-- internlm_chat_7b_qlora_oasst1_e3_copy
+        <span class="token operator">|</span>-- 20231101_152923
+        <span class="token operator">|</span>   <span class="token operator">|</span>-- 20231101_152923.log
+        <span class="token operator">|</span>   <span class="token variable"><span class="token variable">`</span>-- vis_data
+        <span class="token operator">|</span>       <span class="token operator">|</span>-- 20231101_152923.json
+        <span class="token operator">|</span>       <span class="token operator">|</span>-- config.py
+        <span class="token operator">|</span>       <span class="token variable">`</span></span>-- scalars.json
+        <span class="token operator">|</span>-- epoch_1.pth
+        <span class="token operator">|</span>-- epoch_2.pth
+        <span class="token operator">|</span>-- epoch_3.pth
+        <span class="token operator">|</span>-- internlm_chat_7b_qlora_oasst1_e3_copy.py
+        `-- last_checkpoint
+</code></pre></div><p><span style="color:red;"><strong>此时，hf 文件夹即为我们平时所理解的所谓 “LoRA 模型文件”</strong></span></p> <blockquote><p>可以简单理解：LoRA 模型文件 = Adapter</p></blockquote> <p><strong>部署与测试：</strong></p> <p>将 HuggingFace adapter 合并到大语言模型：</p> <div class="language-Bash extra-class"><pre class="language-bash"><code>xtuner convert merge ./internlm-chat-7b ./hf ./merged --max-shard-size 2GB
+<span class="token comment"># xtuner convert merge \</span>
+<span class="token comment">#     ${NAME_OR_PATH_TO_LLM} \</span>
+<span class="token comment">#     ${NAME_OR_PATH_TO_ADAPTER} \</span>
+<span class="token comment">#     ${SAVE_PATH} \</span>
+<span class="token comment">#     --max-shard-size 2GB</span>
+</code></pre></div><p>与合并后的模型对话：</p> <div class="language-Bash extra-class"><pre class="language-bash"><code><span class="token comment"># 加载 Adapter 模型对话（Float 16）</span>
+xtuner chat ./merged --prompt-template internlm_chat
+
+<span class="token comment"># 4 bit 量化加载</span>
+<span class="token comment"># xtuner chat ./merged --bits 4 --prompt-template internlm_chat</span>
+</code></pre></div><p>Demo</p> <ul><li>修改 <code>cli_demo.py</code> 中的模型路径</li></ul> <div class="language-diff extra-class"><pre class="language-diff"><code><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"> model_name_or_path = &quot;/root/model/Shanghai_AI_Laboratory/internlm-chat-7b&quot;
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> model_name_or_path = &quot;merged&quot;
+</span></span></code></pre></div><ul><li>运行 <code>cli_demo.py</code> 以目测微调效果</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>python ./cli_demo.py
+</code></pre></div><p><strong>效果：</strong></p> <table><thead><tr><th>微调前</th> <th>微调后</th></tr></thead> <tbody><tr><td>TODO</td> <td>TODO</td></tr></tbody></table> <p><strong><code>xtuner chat</code></strong> <strong>的启动参数</strong></p> <table><thead><tr><th>启动参数</th> <th>干哈滴</th></tr></thead> <tbody><tr><td><strong>--prompt-template</strong></td> <td>指定对话模板</td></tr> <tr><td>--system</td> <td>指定SYSTEM文本</td></tr> <tr><td>--system-template</td> <td>指定SYSTEM模板</td></tr> <tr><td>-<strong>-bits</strong></td> <td>LLM位数</td></tr> <tr><td>--bot-name</td> <td>bot名称</td></tr> <tr><td>--with-plugins</td> <td>指定要使用的插件</td></tr> <tr><td><strong>--no-streamer</strong></td> <td>是否启用流式传输</td></tr> <tr><td><strong>--lagent</strong></td> <td>是否使用lagent</td></tr> <tr><td>--command-stop-word</td> <td>命令停止词</td></tr> <tr><td>--answer-stop-word</td> <td>回答停止词</td></tr> <tr><td>--offload-folder</td> <td>存放模型权重的文件夹（或者已经卸载模型权重的文件夹）</td></tr> <tr><td>--max-new-tokens</td> <td>生成文本中允许的最大 <code>token</code> 数量</td></tr> <tr><td><strong>--temperature</strong></td> <td>温度值</td></tr> <tr><td>--top-k</td> <td>保留用于顶k筛选的最高概率词汇标记数</td></tr> <tr><td>--top-p</td> <td>如果设置为小于1的浮点数，仅保留概率相加高于 <code>top_p</code> 的最小一组最有可能的标记</td></tr> <tr><td>--seed</td> <td>用于可重现文本生成的随机种子</td></tr></tbody></table></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">7/10/2025, 6:03:05 PM</span></div></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/llm/llm_basic.html">
+        LLM AI 基础
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.8928299a.js" defer></script><script src="/assets/js/2.e9459d84.js" defer></script><script src="/assets/js/1.6a359339.js" defer></script><script src="/assets/js/13.a5f3fdad.js" defer></script>
+  </body>
+</html>
